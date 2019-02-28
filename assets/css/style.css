@@ -1,0 +1,137 @@
+
+body {
+  background-color: rgb(218, 210, 205);
+  background-size: 100% 100%;
+  overflow: auto;
+}
+
+
+  .button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+
+  }
+  .button:hover{
+    background: red;
+    color:#fff;
+  }
+  
+.aboutme{
+    background-color: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    margin-top: 5px;
+    padding-left: 250px;
+    width: 700px;
+    float: left;
+    position: absolute;
+  
+  }
+
+  img{
+    
+    top: 30px;
+    left: 20px;
+    margin-top: 10px;
+    width: 200px;
+    height: 250px;
+   
+    
+    display: inline-block;
+    position: relative;
+    
+    overflow: hidden;
+    
+    
+
+  }
+ 
+  #website-header{
+  color: maroon;
+  font-weight: bold;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 35px;
+  background: gray;
+  width: 300px;
+  margin: 50px;
+  padding: 20px;
+ 
+
+}
+
+.nav {
+   
+  
+  position: absolute;
+  top: 5%;
+  left:70%;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a{
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #000;
+  text-decoration: none;
+  font-size: 15px;
+  
+}
+a:hover{
+  color:red;
+}
+a:active{
+  color: green;
+}
+a{padding: 10px;}
+
+
+
+
+.contactme{
+  padding: 20px;
+}
+.contactme .contactinfo{
+  padding-bottom: 15px;
+}
+.contactme lable{
+  display: block;
+}
+.contactme input[type="text"], .contactme textarea
+{
+  padding: 10px;
+  width: 80%;
+
+}
+
+
+
+
+.content{
+  
+  width: 960px;
+  height: 400px;
+  border:5px solid rgba(179, 36, 36, 0.178);
+  background-color: rgb(209, 183, 187);
+  padding: 15px;
+  margin: 0 auto;
+  background-size: 100% 100%;
+  overflow: auto;
+}
+  
+.social-links{
+  font-size: 20px;
+  margin: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 180px;
+  margin: auto;
+ 
+
+
+}
